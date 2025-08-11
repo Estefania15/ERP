@@ -1,0 +1,75 @@
+/* Estilo general para la estructura de la app */
+.app-container {
+    display: flex;
+    height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    position: relative;
+}
+
+/* Estilo para el Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #34495e; /* Fondo oscuro para el Sidebar */
+    color: white;
+    padding: 20px;
+    z-index: 100; /* Asegura que el Sidebar esté debajo del Topbar */
+}
+
+/* Contenedor de la Topbar */
+.topbar-container {
+    width: calc(100% - 250px); /* Asegura que la topbar ocupe todo el espacio disponible al lado del Sidebar */
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 200; /* Asegura que la Topbar esté por encima del Sidebar */
+    margin-left: 250px; /* Asegura que la topbar se desplace junto al sidebar */
+}
+
+/* Estilo para la Topbar personalizada */
+.custom-topbar {
+    background-color: #2c3e50; /* Fondo oscuro suave */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra sutil */
+}
+
+/* Estilo para los botones de la Topbar */
+.topbar-button {
+    background-color: transparent;
+    border: none;
+    color: #ecf0f1;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.topbar-button:hover {
+    background-color: rgba(236, 240, 241, 0.2); /* Fondo gris al pasar el ratón */
+}
+
+/* Estilo para la imagen de usuario */
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Estilo del Dropdown (cuando se hace clic en la imagen del usuario) */
+.custom-topbar .dropdown-menu {
+    background-color: #34495e;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

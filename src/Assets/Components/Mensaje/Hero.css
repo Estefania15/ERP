@@ -1,0 +1,27 @@
+/* Assets/Components/Hero/Hero.css */
+
+.hero {
+    background: linear-gradient(135deg, #f9fafc 0%, #ffffff 100%);
+    padding: 1rem 1.5rem;
+    text-align: left;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero-content h1 {
+    font-size: 1.2rem;
+    color: #222;
+    margin:  0 0.5rem 0;
+    font-weight: 600;
+  }
+  
+  .hero-content p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+  }
+  

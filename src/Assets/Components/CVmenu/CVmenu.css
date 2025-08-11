@@ -1,0 +1,55 @@
+/* Estilo general del contenedor */
+.cv-menu-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de cada sección */
+.cv-section {
+    margin-bottom: 20px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.cv-section h3 {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilo de las listas */
+.cv-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cv-section li {
+    padding: 8px;
+    background: #e9ecef;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.cv-section li:hover {
+    background: #d1e7fd;
+}
+
+/* Sublistas */
+.cv-section li ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.cv-section li ul li {
+    background: #f8f9fa;
+}

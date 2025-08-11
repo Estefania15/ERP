@@ -1,0 +1,39 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* 2 columnas iguales */
+    grid-template-rows: repeat(2, 1fr);     /* 2 filas iguales */
+    gap: 8px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+    display: flex;
+    align-items: center;  /* Para centrar el contenido dentro de cada card */
+    justify-content: center; 
+    background-color: #f0f0f0;  /* Color de fondo para diferenciar las cards */
+    border: 1px solid #ccc;  /* Borde para darle estilo */
+    height: 100%;  /* Asegura que la card ocupe toda la altura disponible */
+    width: 100%;   /* Asegura que la card ocupe toda la anchura disponible */
+}
+
+.div1 {
+    grid-column: 1 / 2;  /* Empieza en la columna 1, ocupa 1 columna */
+    grid-row: 1 / 2;     /* Empieza en la fila 1, ocupa 1 fila */
+}
+
+.div2 {
+    grid-column: 2 / 3;  /* Empieza en la columna 2, ocupa 1 columna */
+    grid-row: 1 / 2;     /* Empieza en la fila 1, ocupa 1 fila */
+}
+
+.div3 {
+    grid-column: 1 / 2;  /* Empieza en la columna 1, ocupa 1 columna */
+    grid-row: 2 / 3;     /* Empieza en la fila 2, ocupa 1 fila */
+}
+
+.div4 {
+    grid-column: 2 / 3;  /* Empieza en la columna 2, ocupa 1 columna */
+    grid-row: 2 / 3;     /* Empieza en la fila 2, ocupa 1 fila */
+}

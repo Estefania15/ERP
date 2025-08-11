@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .tooltip {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+  
+  .legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  

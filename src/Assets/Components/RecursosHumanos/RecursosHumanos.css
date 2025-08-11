@@ -1,0 +1,79 @@
+/* Fondo de la página */
+body {
+    background-color: #f0f4f8;  /* Color de fondo suave */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo general para el ERP */
+.erp-container {
+    background-color: #fff;  /* Fondo blanco para el contenedor principal */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Agregar sombra sutil */
+}
+
+/* Título principal */
+.erp-container h1 {
+    text-align: center;
+    color: #4A148C;
+}
+
+/* Estilos para la lista de empleados */
+.employee-list {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #fff;  /* Fondo blanco para la lista */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.employee-list h2 {
+    text-align: center;
+    color: #3f51b5;
+}
+
+.employee-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.employee-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e8f0fe;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.employee-list li:hover {
+    background-color: #c5d6e0;
+}
+
+/* Estilo para los detalles de un empleado */
+.employee-detail {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #fff;  /* Fondo blanco para los detalles */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.employee-detail h2 {
+    text-align: center;
+    color: #3f51b5;
+}
+
+.employee-detail p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #555;
+}
+
+.employee-detail strong {
+    color: #4A148C;
+}

@@ -1,0 +1,88 @@
+/* MegaMenu.css */
+.megamenu-container {
+    background-color: #f4f7fc; /* Color de fondo suave, tono azul muy claro */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px;
+}
+
+.custom-megamenu {
+    font-family: 'Poppins', sans-serif; /* Fuente moderna y más amigable */
+    font-size: 14px;
+    background-color: #ffffff; /* Fondo blanco para el menú */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave y más difusa */
+    border-radius: 8px;
+}
+
+.custom-megamenu .p-megamenu-item {
+    border-radius: 6px; /* Bordes redondeados en los elementos del menú */
+}
+
+.custom-megamenu .p-menuitem-link {
+    padding: 12px 20px;
+    color: #4c4c4c; /* Color de texto suave y oscuro */
+    font-weight: 500; /* Ligera negrita */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves */
+}
+
+.custom-megamenu .p-menuitem-link:hover {
+    background-color: #007bff; /* Fondo azul en hover */
+    color: #ffffff; /* Texto blanco al pasar el cursor */
+}
+
+.custom-megamenu .p-megamenu-group {
+    margin-bottom: 12px; /* Espaciado entre grupos */
+}
+
+.custom-megamenu .p-megamenu-header {
+    background-color: #006bb3; /* Azul más oscuro para los encabezados */
+    color: white; /* Texto blanco */
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.custom-megamenu .p-menuitem-text {
+    font-size: 15px; /* Tamaño de fuente más grande y claro */
+    font-weight: normal;
+}
+
+.custom-megamenu .pi {
+    margin-right: 10px; /* Espaciado entre el icono y el texto */
+}
+
+/* Estilo para los submenús */
+.custom-megamenu .p-megamenu-column {
+    padding: 10px;
+    background-color: #f9f9f9; /* Fondo ligeramente gris para los submenús */
+    border-radius: 8px;
+}
+
+.custom-megamenu .p-megamenu-column > .p-menuitem-link {
+    font-size: 14px; /* Tamaño de fuente más pequeño para los subelementos */
+    color: #4c4c4c;
+}
+
+.custom-megamenu .p-megamenu-column > .p-menuitem-link:hover {
+    background-color: #e7f3ff; /* Fondo azul muy claro cuando el subelemento es seleccionado */
+    color: #007bff; /* Color de texto azul en hover */
+}
+
+/* Iconos */
+.custom-megamenu .pi {
+    color: #006bb3; /* Iconos en color azul */
+}
+
+/* Responsividad */
+@media (max-width: 960px) {
+    .custom-megamenu {
+        font-size: 12px; /* Ajuste del tamaño de fuente en pantallas más pequeñas */
+    }
+
+    .custom-megamenu .p-megamenu-header {
+        font-size: 14px; /* Tamaño de fuente más pequeño en el encabezado en pantallas pequeñas */
+    }
+
+    .custom-megamenu .p-menuitem-link {
+        padding: 10px 16px;
+    }
+}

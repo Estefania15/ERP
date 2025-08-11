@@ -1,0 +1,36 @@
+.table-container {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  font-size: 15px;
+}
+
+table th {
+  background-color: #2d8cf0;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+table tr:hover {
+  background-color: #f4f9ff;
+  transition: background-color 0.2s ease-in-out;
+}
